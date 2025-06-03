@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Young Serif;
+  src: url(../font/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(../font/Outfit-VariableFont_wght.ttf);
+}
+
+/* font-size 22 15 10  */
+:root {
+  --black: #000000;
+  --color-link: #5364c5;
+  --primary-color: #f9fafc;
+  --white: #ffffff;
+  --border-color: #d2d5da;
+}
+
+body {
+  height: 100vh;
+  font-family: Young Serif;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.question{
+    font-family: Outfit;
+}
+
+.author-info {
+  /* font-size: 14px; */
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+

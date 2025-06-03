@@ -13,7 +13,6 @@
   src: url(../font/Outfit-VariableFont_wght.ttf);
 }
 
-/* font-size 22 15 10  */
 :root {
   --black: #000000;
   --color-link: #5364c5;
@@ -99,14 +98,10 @@ footer {
 
 @media screen and (min-width: 375px) and (max-width: 1024px) {
   .container {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: center;
-  }
-  .question {
-    /* width: 50%; */
   }
 }
 
